@@ -118,8 +118,10 @@ O modelo final, utilizando Random Forest com o threshold ajustado para 0.47, obt
 
 Como se pode observar, com o modelo, foi possível calcular o impacto financeiro em termos de economia líquida, e o valor estimado foi de **NT$ 16.901.935,86**, ou seja, reduzindo o custo da inadimplência em **24,27%**. Isso ajuda a empresa a tomar decisões de forma mais eficiente sobre aconselhamento e mitigação de inadimplência.
 
+## Entrega Final (v.1) - Lista clientes com grandes probabilidades de Inadimplência
+Você pode acessar o arquivo CSV com as contas inadimplentes [aqui](list_prob_default_accounts/contas_inadimplentes.csv).
 
-![model_performance](img/model_performance.png)
+![lista](img/entrega_final.png)
 
 
 ## Próximos Passos
