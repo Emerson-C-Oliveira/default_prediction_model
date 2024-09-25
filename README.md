@@ -1,4 +1,4 @@
-# Credit Default Prediction Model
+# Modelo de previsão de inadimplência de crédito
 
 
 <img src="img/capa_projeto_risco_credito.png" alt="Capa do Projeto" width="1070" height="500">
@@ -54,15 +54,18 @@ O conjunto de dados utilizado foi obtido a partir de uma base interna da empresa
 
 Aqui estão os principais insights gerados a partir da análise e modelagem dos dados:
 
-
 1. A taxa de inadimplência aumenta com a idade, especialmente acima dos 50 anos, onde a concentração de inadimplentes é notável. Jovens ainda apresentam inadimplência, mas a proporção cresce nas faixas etárias mais altas.
+![hipotese_1](img/hp1.png)
 
 2. Limites de crédito mais altos estão associados a uma menor probabilidade de inadimplência. Conforme o limite de crédito aumenta, a taxa de inadimplência diminui, sendo 31.99% para limites até 50k e apenas 11.96% para limites entre 400k e 500k.
+![hipotese_2](img/hp2.png)
 
 3. A hipótese de que clientes com pagamentos atrasados consecutivos têm maior probabilidade de inadimplência foi confirmada, com inadimplência variando de 11,7% (sem atrasos) a 71,1% (seis atrasos). No entanto, inconsistências nos dados comprometem esta hipótese, especialmente com contas em atraso de 2 meses, indicam problemas na coleta e geração de relatórios, destacando a necessidade de verificar a qualidade dos dados.
+![hipotese_3](img/hp3.png)
+![hipotese_3](img/hp3.1.png)
 
 4. Valores mais alto fatura atual não aumentam a probabilidade de inadimplência no próximo mês. As taxas de inadimplência são mais altas nas faixas de fatura menores, com a menor taxa (19.49%) observada em valores superiores a 100k, sugerindo que clientes com faturas mais altas têm maior capacidade de pagamento.
-
+![hipotese_4](img/hp4.png)
 
 
 ## Modelos de Machine Learning
