@@ -1,0 +1,6 @@
+# Ignorar a pasta 'notebooks'
+notebooks/
+
+# Ignorar arquivos específicos na pasta 'dataset'
+dataset/dados_limpos.xlsx
+dataset/data1.csv
