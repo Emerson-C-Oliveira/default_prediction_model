@@ -1,5 +1,6 @@
 # Ignorar a pasta 'notebooks'
 notebooks/
+relatorios/
 
 # Ignorar arquivos específicos na pasta 'dataset'
 dataset/dados_limpos.xlsx
